@@ -2,7 +2,7 @@ import pandas as pd
 
 def load_data():
     # Read the csv file
-    df = pd.read_csv("data\student_data_for_project.csv")
+    df = pd.read_csv("data/student_data_for_project.csv")
     return df
 
 def inspect_data(df):
